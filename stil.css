@@ -1,0 +1,187 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  body {
+    margin:0% ;
+    background-color: lightgrey;
+    
+    
+  }
+  main{
+    margin: 10px;
+  }
+
+  p {
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    font-size: 55px;
+    color: crimson;
+    font-family: sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 7px;
+    text-shadow: 3px 3px blueviolet ;
+  } 
+
+  img {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  #smesko {
+    width: 350px;
+    height: 350px;
+  }
+
+  h2 {
+    font-size: 37px;
+    color: crimson;
+    font-family: cursive;
+    text-decoration-line: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 7px;
+    text-shadow: 2px 2px ;
+  }
+
+  #novice {
+    width: 330px;
+    height: 330px;
+  }
+
+  #newsbody {
+    text-align: center;
+  }
+
+  #indexbody {
+    text-align: center;
+    background-image: url(img/body-ozadje.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite ;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+  }
+
+  hr {
+    border-top: 2px solid red;
+  }
+
+  #contactbody {
+    text-align: center;
+  }
+
+  #tiktok1 {
+    width: 330px;
+    height: 330px;
+  }
+
+  #tiktok2 {
+    width: 330px;
+    height: 330px;
+
+  }
+
+  #Facebook {
+    width: 330px;
+    height: 330px;
+
+  }
+
+  #kontaktslika {
+    width: 330px;
+    height: 330px;
+
+  }
+
+  #aboutbody {
+    text-align: center;
+  }
+  #hvalazaogled {
+    width: 330px;
+    height: 330px;
+  }
+
+  #nalnaslov {
+    color: blue;
+    text-decoration-color: blue;
+  }
+  #nalbody {
+    text-align: center;
+  }
+
+  #messiimg {
+    width: 330px;
+    height: 330px;
+    
+  }
+
+  #beast {
+    width: 330px;
+    height: 280px;
+  }
+  @keyframes animate{
+  0%{
+    background-image:url(img/body-ozadje.jpg);
+  }20%{
+    background-image:url(img/body-ozadje2.jpg);
+  }40%{
+    background-image:url(img/body-ozadje3.png);
+  }60%{
+    background-image:url(img/body-ozadje4.webp);
+  }80%{
+    background-image:url(img/body-ozadje5.webp);
+  }100%{
+    background-image:url(img/body-ozadje6.jpg);
+  }
+
+
+}
+
+    .pbela {
+      color: azure;
+    }
+  
