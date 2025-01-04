@@ -9,12 +9,10 @@
     top: 0;
     width: 100%;
   }
-  
   li {
     float: left;
     border-right: 1px solid #bbb;
   }
-  
   li a {
     display: block;
     color: white;
@@ -22,11 +20,9 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   li a:hover {
     background-color: #111;
   }
-
   li:last-child {
     border-right: none;
   }
@@ -37,6 +33,7 @@
     
     
   }
+
   main{
     margin: 10px;
   }
@@ -44,6 +41,10 @@
   p {
     font-size: 22px;
     font-family: sans-serif;
+  }
+
+  .pbela {
+    color: azure;
   }
 
   h1 {
@@ -55,18 +56,6 @@
     text-decoration-style: dashed;
     text-decoration-thickness: 7px;
     text-shadow: 3px 3px blueviolet ;
-  } 
-
-  img {
-    border: 1px solid #000000;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-
-  #smesko {
-    width: 350px;
-    height: 350px;
   }
 
   h2 {
@@ -80,14 +69,45 @@
     text-shadow: 2px 2px ;
   }
 
-  #novice {
+  hr {
+    border-top: 2px solid red;
+  }
+
+  img {
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+
+  #aboutbody {
+    text-align: center;
+  }
+  #aboutslika1 {
     width: 330px;
     height: 330px;
   }
 
-  #newsbody {
+
+
+  #contactbody {
     text-align: center;
   }
+  #contactslika1 {
+    width: 330px;
+    height: 330px;
+  }
+  #contactslika2 {
+    width: 330px;
+    height: 330px;
+  }
+  #contactslika3 {
+    width: 330px;
+    height: 330px;
+  }
+
+
 
   #indexbody {
     text-align: center;
@@ -103,66 +123,46 @@
     animation-iteration-count: infinite ;
     animation-play-state: running;
     animation-timing-function: ease-in-out;
-
+  }
+  #indexslika1 {
+    width: 350px;
+    height: 350px;
   }
 
-  hr {
-    border-top: 2px solid red;
-  }
 
-  #contactbody {
+
+  #nalbody {
     text-align: center;
   }
-
-  #tiktok1 {
-    width: 330px;
-    height: 330px;
-  }
-
-  #tiktok2 {
-    width: 330px;
-    height: 330px;
-
-  }
-
-  #Facebook {
-    width: 330px;
-    height: 330px;
-
-  }
-
-  #kontaktslika {
-    width: 330px;
-    height: 330px;
-
-  }
-
-  #aboutbody {
-    text-align: center;
-  }
-  #hvalazaogled {
-    width: 330px;
-    height: 330px;
-  }
-
   #nalnaslov {
     color: blue;
     text-decoration-color: blue;
   }
-  #nalbody {
-    text-align: center;
-  }
-
-  #messiimg {
+  #nalslika1 {
     width: 330px;
     height: 330px;
-    
   }
-
-  #beast {
+  #nalslika2 {
     width: 330px;
     height: 280px;
   }
+
+
+
+ #newsbody {
+    text-align: center;
+  }
+  #newsslika1 {
+    width: 330px;
+    height: 330px;
+  }
+  #newsslika2 {
+    width: 330px;
+    height: 330px;
+  }
+
+
+
   @keyframes animate{
   0%{
     background-image:url(img/body-ozadje.jpg);
@@ -180,8 +180,3 @@
 
 
 }
-
-    .pbela {
-      color: azure;
-    }
-  
